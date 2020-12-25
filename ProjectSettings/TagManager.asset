@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle
+  - Water
+  - Fire
+  - Wood
+  - Line
   layers:
   - Default
   - TransparentFX
@@ -16,8 +20,8 @@ TagManager:
   - 
   - Obstacle
   - Platform
-  - 
-  - 
+  - Ground
+  - Player
   - 
   - 
   - 
@@ -50,4 +54,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 1438003073
+    locked: 0
+  - name: UI
+    uniqueID: 3604411313
     locked: 0

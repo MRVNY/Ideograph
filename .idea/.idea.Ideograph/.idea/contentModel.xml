@@ -210,10 +210,18 @@
             <e p="UnityReferenceHelper.cs" t="Include" />
           </e>
         </e>
-        <e p="Fire.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="CharacterController2D.cs" t="Include" />
+          <e p="DrawLine.cs" t="Include" />
+          <e p="Element.cs" t="Include" />
+          <e p="Fire.cs" t="Include" />
+          <e p="IElement.cs" t="Include" />
+          <e p="Magic.cs" t="Include" />
           <e p="MouseClick.cs" t="Include" />
+          <e p="Panel.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="Wood.cs" t="Include" />
         </e>
       </e>
       <e p="AstarPathfindingProject.csproj" t="IncludeRecursive" />
