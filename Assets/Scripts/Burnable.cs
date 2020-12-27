@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
 
-public class Wood : IElement
+public class Burnable : IElement
 {
     private SpriteRenderer renderer;
     
@@ -22,7 +22,7 @@ public class Wood : IElement
 
     public override void react(IElement activator)
     {
-        if (activator.tag.Equals("Fire"))
+        if (activator.GetType().Name.Equals("Fire"))
         {
             renderer.color = Color.red;
             say("Burned");

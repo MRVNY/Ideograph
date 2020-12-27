@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class Water : IElement
 {
-    // Start is called before the first frame update
-    void Start()
+    private Renderer renderer;
+    private void Start()
     {
-        
+        renderer = GetComponent<Renderer>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     public override void activate(IElement interactable)
     {
-        throw new System.NotImplementedException();
+        if (interactable != null)
+        {
+            print("React Wood");
+            interactable.react(this);
+        }
     }
 
     public override void react(IElement activator)
     {
-        throw new System.NotImplementedException();
+        if (activator.GetType().Name.Equals("Water"))
+        {
+            renderer.enabled = false;
+        }
     }
 }

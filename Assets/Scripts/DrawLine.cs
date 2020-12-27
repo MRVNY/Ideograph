@@ -71,6 +71,28 @@ public class DrawLine : MonoBehaviour
             wand.loadSpell("Fire");
         }
         
+        //Water
+        if (positions.Count == 4 &&
+            positions[0][0].y > positions[0].Last().y && //第一画从上到下
+            positions[1][0].y > positions[1].Last().y && //第二画从上到下
+            positions[2][0].y > positions[2].Last().y && //第三画从上到下
+            positions[3][0].y > positions[3].Last().y && //第四画从上到下
+            
+            positions[2][0].x > positions[2].Last().x && //第三画从右到左
+            positions[3][0].x < positions[3].Last().x && //第四画从左到右
+            
+            positions[0].Last().y > positions[2].Last().y && //一尾在三尾上
+            positions[1].Last().y > positions[3].Last().y && //二尾在四尾上
+            positions[2][0].x > positions[0][0].x && //二始在一始右边
+            positions[2][0].x < positions[1][0].x && //二始在三始左边
+            positions[3][0].y < positions[2][0].y && //四始在三始下面
+            positions[3][0].y > positions[2].Last().y //四始在三尾上面
+        )
+        {
+            print("是水");
+            wand.loadSpell("Water");
+        }
+        
     }
 
     public void clear()

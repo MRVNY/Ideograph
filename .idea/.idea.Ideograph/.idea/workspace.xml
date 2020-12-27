@@ -13,10 +13,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/39/e964dfec/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C8F1D0C-A927-4ABD-9E84-59A2F44CB646/33/142249b3/SpriteShapeRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Burnable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/38/86d1a85f/Color.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/dd/6ec0b688/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -42,16 +42,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Magic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Element.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/noIElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Panel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Say.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Learn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Wood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Water.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Water.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Burnable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <workItem from="1608810476857" duration="6941000" />
       <workItem from="1608890976952" duration="13345000" />
       <workItem from="1608989814205" duration="18804000" />
-      <workItem from="1609071579510" duration="2587000" />
+      <workItem from="1609071579510" duration="4777000" />
     </task>
     <servers />
   </component>

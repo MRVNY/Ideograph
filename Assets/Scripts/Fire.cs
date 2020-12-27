@@ -16,14 +16,13 @@ public class Fire : IElement
     {
         if (interactable != null)
         {
-            print("React Wood");
             interactable.react(this);
         }
     }
 
     public override void react(IElement activator)
     {
-        if (activator.tag.Equals("Water"))
+        if (activator.GetType().Name.Equals("Water"))
         {
             renderer.enabled = false;
         }

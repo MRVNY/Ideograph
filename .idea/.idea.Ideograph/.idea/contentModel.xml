@@ -7,16 +7,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Burnable.cs" t="Include" />
           <e p="CharacterController2D.cs" t="Include" />
           <e p="DrawLine.cs" t="Include" />
           <e p="Fire.cs" t="Include" />
           <e p="IElement.cs" t="Include" />
           <e p="Learn.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="Panel.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="Wand.cs" t="Include" />
           <e p="Water.cs" t="Include" />
-          <e p="Wood.cs" t="Include" />
         </e>
       </e>
       <e p="Ideograph.sln" t="IncludeFlat" />
