@@ -4,28 +4,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
 
-public class Wood : Element
+public class Wood : IElement
 {
-    private SpriteShapeRenderer renderer;
+    private SpriteRenderer renderer;
     
     // Start is called before the first frame update
     void Start()
     {
-        renderer = GetComponent<SpriteShapeRenderer>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
 
-    public override void activate()
+    public override void activate(IElement interactable)
     {
         //do nothing
     }
 
-    public override void react(String activator)
+    public override void react(IElement activator)
     {
-        if (activator.Equals("Fire"))
+        if (activator.tag.Equals("Fire"))
         {
-            
             renderer.color = Color.red;
+            say("Bured");
         }
     }
 }

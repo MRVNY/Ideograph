@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class Panel : MonoBehaviour
 {
-    public GameObject linePrefab;
     private Image image;
     private DrawLine draw;
+    private PlayerMovement move;
     void Start()
     {
         image = GetComponent<Image>();
         image.enabled = false;
         draw = GetComponent<DrawLine>();
         draw.enabled = false;
+        move = FindObjectOfType<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -26,6 +27,8 @@ public class Panel : MonoBehaviour
     {
         if (image.enabled == false)
         {
+            move.resetMPos();
+            move.enabled = false;
             image.enabled = true;
             draw.enabled = true;
         }
@@ -40,7 +43,8 @@ public class Panel : MonoBehaviour
             {
                 Destroy(obj.gameObject);
             }
-            
+            move.enabled = true;
+            move.resetMPos();
         }
     }
 }

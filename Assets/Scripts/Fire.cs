@@ -3,42 +3,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fire : Element 
+public class Fire : IElement 
 {
-    private IElement interactable;
     private Renderer renderer;
-    private String tag;
     private void Start()
     {
         renderer = GetComponent<Renderer>();
-        tag = gameObject.tag;
     }
     
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        print("Enter" + other);
-        if(other.gameObject.GetComponent<IElement>() != null) interactable = other.gameObject.GetComponent<IElement>();
-        print(interactable);
-    }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        print("Exit" + other);
-        interactable = null;
-    }
-
-    public override void activate()
+    public override void activate(IElement interactable)
     {
         if (interactable != null)
         {
             print("React Wood");
-            interactable.react(tag);
+            interactable.react(this);
         }
     }
 
-    public override void react(String activator)
+    public override void react(IElement activator)
     {
-        if (activator.Equals("Water"))
+        if (activator.tag.Equals("Water"))
         {
             renderer.enabled = false;
         }

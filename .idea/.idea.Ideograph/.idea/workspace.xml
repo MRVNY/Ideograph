@@ -8,23 +8,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/39/e964dfec/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Learn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C8F1D0C-A927-4ABD-9E84-59A2F44CB646/33/142249b3/SpriteShapeRenderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wood.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Magic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/38/86d1a85f/Color.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/AIPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AI/Seeker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/dd/6ec0b688/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/1a/f4513aab/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/26/4a048b38/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2019.4.12f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/39/e964dfec/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wood.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3324648A-58A6-4D79-A1D0-08F8966307A6/55/7ed3f0b1/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../字/Sparta/Assets/Scripts/CharacterController2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Panel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,14 +38,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController2D.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Element.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Wood.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Magic.cs" />
         <option value="$PROJECT_DIR$/Assets/Panel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Magic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/noIElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Say.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Learn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wand.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608810445237</updated>
       <workItem from="1608810476857" duration="6941000" />
-      <workItem from="1608890976952" duration="13153000" />
+      <workItem from="1608890976952" duration="13345000" />
+      <workItem from="1608989814205" duration="18804000" />
     </task>
     <servers />
   </component>
@@ -99,9 +104,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="158" key="RiderGenerateDialog" timestamp="1608896862684">
+    <state x="532" y="158" key="RiderGenerateDialog" timestamp="1609012391150">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="532" y="158" key="RiderGenerateDialog/0.0.1440.900@0.0.1440.900" timestamp="1608896862684" />
+    <state x="532" y="158" key="RiderGenerateDialog/0.0.1440.900@0.0.1440.900" timestamp="1609012391150" />
   </component>
 </project>

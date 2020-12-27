@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1920953378849591445}
   - component: {fileID: 7834853866371975687}
   - component: {fileID: 8791925504008124487}
+  - component: {fileID: 2061993019036509797}
   m_Layer: 0
   m_Name: "\u706B"
   m_TagString: Untagged
@@ -42,7 +43,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -135,7 +136,7 @@ MonoBehaviour:
   m_StretchTiling: 1
   m_SplineDetail: 16
   m_AdaptiveUV: 1
-  m_StretchUV: 0
+  m_StretchUV: 1
   m_WorldSpaceUV: 0
   m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
@@ -145,3 +146,15 @@ MonoBehaviour:
   m_OptimizeGeometry: 1
   m_EnableTangents: 0
   m_GeometryCached: 0
+--- !u!114 &2061993019036509797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561402077262762429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4418d7b801043e4bc561139dc09d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

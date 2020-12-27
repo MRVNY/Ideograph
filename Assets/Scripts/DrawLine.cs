@@ -10,9 +10,11 @@ public class DrawLine : MonoBehaviour
     private GameObject currentLine;
     private LineRenderer lineRenderer;
     private List<List<Vector2>> positions;
+    private Wand wand;
     void Start()
     {
         positions = new List<List<Vector2>>();
+        wand = FindObjectOfType<Wand>();
     }
 
     // Update is called once per frame
@@ -66,6 +68,7 @@ public class DrawLine : MonoBehaviour
         )
         {
             print("是火");
+            wand.loadSpell("Fire");
         }
         
     }

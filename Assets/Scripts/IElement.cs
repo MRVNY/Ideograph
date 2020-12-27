@@ -1,8 +1,23 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public interface IElement
+public abstract class IElement : MonoBehaviour
 {
-    void activate();
-    void react(String activator);
+    private Text box;
+
+    private void Awake()
+    {
+        box = FindObjectOfType<Text>();
+    }
+
+    public abstract void activate(IElement interactable);
+    public abstract void react(IElement activator);
+
+    public void say(string s)
+    {
+        box.text = s;
+    }
 }
