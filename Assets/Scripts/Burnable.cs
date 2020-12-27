@@ -11,7 +11,8 @@ public class Burnable : IElement
     // Start is called before the first frame update
     void Start()
     {
-        renderer = GetComponent<SpriteRenderer>();
+        renderer = GetComponentInChildren<Animator>().gameObject.GetComponent<SpriteRenderer>();
+        renderer.enabled = false;
     }
 
 
@@ -24,7 +25,7 @@ public class Burnable : IElement
     {
         if (activator.GetType().Name.Equals("Fire"))
         {
-            renderer.color = Color.red;
+            renderer.enabled = true;
             say("Burned");
         }
     }

@@ -50,9 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Water.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wood.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Burnable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Burnable.cs" />
       </list>
     </option>
   </component>

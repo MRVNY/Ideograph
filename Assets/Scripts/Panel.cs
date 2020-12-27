@@ -8,7 +8,8 @@ public class Panel : MonoBehaviour
     private Image image;
     private DrawLine draw;
     private PlayerMovement move;
-    private SpriteRenderer[] anims;
+    private Renderer[] anims;
+    public Image tian;
     void Start()
     {
         image = GetComponent<Image>();
@@ -17,6 +18,8 @@ public class Panel : MonoBehaviour
         draw.enabled = false;
         move = FindObjectOfType<PlayerMovement>();
         anims = GetComponentsInChildren<SpriteRenderer>();
+        //tian = GetComponentInChildren<Image>();
+        tian.enabled = false;
         foreach (SpriteRenderer sr in anims)
         {
             sr.enabled = false;
@@ -41,6 +44,7 @@ public class Panel : MonoBehaviour
             {
                 sr.enabled = true;
             }
+            tian.enabled = true;
         }
         else
         {
@@ -51,6 +55,7 @@ public class Panel : MonoBehaviour
             {
                 sr.enabled = false;
             }
+            tian.enabled = false;
             //GetComponents<>()
             LineRenderer[] toDestroy = GetComponentsInChildren<LineRenderer>();
             foreach (LineRenderer obj in toDestroy)
