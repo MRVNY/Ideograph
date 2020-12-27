@@ -10,22 +10,23 @@
 .Trashes
 Icon?
 ehthumbs.db
-[Tt]humbs.db
-[Dd]esktop.ini
+Thumbs.db
+Desktop.ini
 
 # Visual Studio / MonoDevelop generated
 # =====================================
 [Ee]xported[Oo]bj/
 *.userprefs
-
+*.csproj
+*.pidb
+*.suo
+*.sln
 *.user
 *.unityproj
 *.booproj
 
 # Unity generated
 # ===============
-[Oo]bj/
-[Bb]uild
 sysinfo.txt
 *.stackdump
 
@@ -34,5 +35,5 @@ sysinfo.txt
 /Obj/
 /Build/
 /Builds/
-/Logs/
+
 /UserSettings/
