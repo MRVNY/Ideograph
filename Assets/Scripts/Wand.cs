@@ -39,11 +39,14 @@ public class Wand : MonoBehaviour
     {
         if (other.gameObject.GetComponent<IElement>() != null)
         {
-            tmpSpell = currentSpell;
             interactable = other.gameObject.GetComponent<IElement>();
             print("currentSpell" + currentSpell);
-            if(interactable.GetType().Name=="Learn") loadSpell("Learn");
-            button.transform.position = new Vector3(interactable.transform.position.x,interactable.transform.position.y+interactable.transform.localScale.y+.5f);
+            if (interactable.GetType().Name == "Learn")
+            {
+                tmpSpell = currentSpell;
+                loadSpell("Learn");
+            }
+            button.transform.position = new Vector3(interactable.transform.position.x,interactable.transform.position.y+interactable.transform.localScale.y);
             button.SetActive(true);
         }
     }
@@ -52,7 +55,7 @@ public class Wand : MonoBehaviour
     {
         interactable = null;
         button.SetActive(false);
-        currentSpell = tmpSpell;
+        if(currentSpell.GetType().Name=="Load") loadSpell(tmpSpell.GetType().Name);
     }
 
     public void addSpell(IElement spell)

@@ -10,7 +10,7 @@ public abstract class IElement : MonoBehaviour
 
     private void Awake()
     {
-        box = FindObjectOfType<Text>();
+        box = FindObjectOfType<Canvas>().GetComponentInChildren<Text>();
     }
 
     public abstract void activate(IElement interactable);

@@ -789,10 +789,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.20672154, y: 0}
+  m_Offset: {x: -0.016914248, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -803,7 +803,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.476557, y: 3.21}
+  m_Size: {x: 1.8561716, y: 3.21}
   m_EdgeRadius: 0
 --- !u!114 &443075299
 MonoBehaviour:
@@ -2113,6 +2113,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 13253779, guid: c84a6c809362d43c5b9016027fb48cef, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1120711846, guid: c84a6c809362d43c5b9016027fb48cef, type: 3}
       propertyPath: m_ShapeTexture
       value: 
@@ -2120,6 +2124,14 @@ PrefabInstance:
     - target: {fileID: 1120711846, guid: c84a6c809362d43c5b9016027fb48cef, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120711847, guid: c84a6c809362d43c5b9016027fb48cef, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.5866427
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120711847, guid: c84a6c809362d43c5b9016027fb48cef, type: 3}
+      propertyPath: m_Size.x
+      value: 7.1732864
       objectReference: {fileID: 0}
     - target: {fileID: 1982366955, guid: c84a6c809362d43c5b9016027fb48cef, type: 3}
       propertyPath: platforms.Array.size

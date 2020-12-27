@@ -25,7 +25,7 @@ public class Wood : IElement
         if (activator.tag.Equals("Fire"))
         {
             renderer.color = Color.red;
-            say("Bured");
+            say("Burned");
         }
     }
 }
