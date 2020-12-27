@@ -24,6 +24,7 @@ Desktop.ini
 *.user
 *.unityproj
 *.booproj
+.vscode/
 
 # Unity generated
 # ===============
@@ -35,5 +36,5 @@ sysinfo.txt
 /Obj/
 /Build/
 /Builds/
-
+/Logs/
 /UserSettings/
