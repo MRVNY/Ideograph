@@ -8,6 +8,7 @@ public class Panel : MonoBehaviour
     private Image image;
     private DrawLine draw;
     private PlayerMovement move;
+    private SpriteRenderer[] anims;
     void Start()
     {
         image = GetComponent<Image>();
@@ -15,6 +16,11 @@ public class Panel : MonoBehaviour
         draw = GetComponent<DrawLine>();
         draw.enabled = false;
         move = FindObjectOfType<PlayerMovement>();
+        anims = GetComponentsInChildren<SpriteRenderer>();
+        foreach (SpriteRenderer sr in anims)
+        {
+            sr.enabled = false;
+        }
     }
 
     // Update is called once per frame
@@ -31,12 +37,20 @@ public class Panel : MonoBehaviour
             move.enabled = false;
             image.enabled = true;
             draw.enabled = true;
+            foreach (SpriteRenderer sr in anims)
+            {
+                sr.enabled = true;
+            }
         }
         else
         {
             image.enabled = false;
             draw.clear();
             draw.enabled = false;
+            foreach (SpriteRenderer sr in anims)
+            {
+                sr.enabled = false;
+            }
             //GetComponents<>()
             LineRenderer[] toDestroy = GetComponentsInChildren<LineRenderer>();
             foreach (LineRenderer obj in toDestroy)

@@ -42,7 +42,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Magic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Element.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/noIElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Panel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Say.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Learn.cs" />
@@ -53,6 +52,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Wood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Burnable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Panel.cs" />
       </list>
     </option>
   </component>
